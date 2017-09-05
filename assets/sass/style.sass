@@ -93,6 +93,10 @@ h1, h2, h3, h4, h5, h6
 
 .about
   text-align: center
+
+  h3
+    text-transform: uppercase
+
   p
     &:first-of-type
       padding-top: 20px
@@ -132,20 +136,41 @@ h1, h2, h3, h4, h5, h6
   padding-top: 75px
   text-align: center
 
-.projects
-  margin-top: 50px
   img
     box-sizing: contain
     max-width: 100%
     height: auto
     border-radius: 6px
 
+  h3
+    text-transform: uppercase
+
+  h4
+    margin-top: 45px
+
+.projects
+  margin-top: 50px
   p
     margin: 15px 0
+    a
+      text-decoration: none
+      border-bottom: 1px dotted
+
+.projects-text
+  p
+    margin-top: -15px
+    margin-bottom: 50px
   a
     text-decoration: none
     border-bottom: 1px dotted
 
+.websites
+  margin-top: 50px
+
+.websites-text
+  p
+    margin-top: -15px
+    margin-bottom: 50px
 
 /* ================ */
 /*      OTHERS      */
