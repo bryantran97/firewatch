@@ -2,6 +2,7 @@ $(document).ready(function(){
   // Nice scroll
   $(function() {
       $("body").niceScroll({
+        cursoropacitymin: 1,
         scrollspeed: 175
       });
   });
@@ -43,5 +44,9 @@ $(document).ready(function(){
 
   $(".fa-twitter-square").click(function() {
     alert("Just kidding, I don't have a twitter. You just got trolled! The other links/resume/email works fine though!");
+  })
+
+  $(".return button").click(function(){
+    $("html, body").animate({scrollTop:0}, 1500);
   })
 });

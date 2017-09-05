@@ -8,6 +8,7 @@ $font-color: #abadad
 body, html
   height: 100%
   font-family: 'Raleway'
+  position: relative
   background:
     color: $background
 
@@ -28,6 +29,7 @@ h1, h2, h3, h4, h5, h6
 
 #keyart-0
   position: fixed
+  max-height: 1000px
   background:
     image: url(../images/parallax0.png)
     position: center
@@ -76,12 +78,18 @@ h1, h2, h3, h4, h5, h6
 /*   MAIN CONTENT   */
 /* ================ */
 
+.container
+  background-color: $background
+
 .main-content
-  height: 2000px
   padding-top: 150px
   background-color: $background
   position: relative
   color: $font-color
+
+/* ================ */
+/*       ABOUT      */
+/* ================ */
 
 .about
   text-align: center
@@ -89,6 +97,10 @@ h1, h2, h3, h4, h5, h6
     &:first-of-type
       padding-top: 20px
     font-size: 115%
+
+/* ================ */
+/*   SOCIAL-MEDIA   */
+/* ================ */
 
 .social-media
   margin: 0 auto
@@ -111,3 +123,40 @@ h1, h2, h3, h4, h5, h6
     position: relative
     top: -2px
     font-size: 27px
+
+/* ================ */
+/*   PROJECT-OH'S   */
+/* ================ */
+
+.work
+  padding-top: 75px
+  text-align: center
+
+.projects
+  margin-top: 50px
+  img
+    box-sizing: contain
+    max-width: 100%
+    height: auto
+    border-radius: 6px
+
+  p
+    margin: 15px 0
+  a
+    text-decoration: none
+    border-bottom: 1px dotted
+
+
+/* ================ */
+/*      OTHERS      */
+/* ================ */
+
+.return
+  padding: 75px 0
+  text-align: center
+  button
+    color: $font-color
+    transition: 0.4s all ease-in-out
+    &:hover
+      border-color: white
+      color: white
