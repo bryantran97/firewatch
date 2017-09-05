@@ -10,6 +10,7 @@ html(lang="en")
     meta(name="viewport", content="width=device-width, initial-scale=1")
     link(rel="stylesheet", href="assets/css/style.css")
     link(rel="stylesheet", href="assets/css/skeleton.css")
+    link(rel="stylesheet", href="assets/css/fontawesome/css/font-awesome.min.css")
     link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Montserrat:400,600|Raleway:300,400,600")
     
     body
@@ -28,8 +29,25 @@ html(lang="en")
       .main-content
         .container
           .about
-            h3 Hi there! My name is Bryan!
-      
+            h3 About Me
+            
+            p 
+              |I am a junior at The University of Texas at Dallas. I am a UI focused Full-Stack Developer.
+              |<br/ >When I'm not studying for school, you can find me working on websites or hanging out with friends!
+              |<br />Question: Am I passionate about web development and do I enjoy doing it? Answer: Higgity Heck Yeah!
+            
+            p 
+              |Note: This is my own take on the original Firewatch game website, the artwork does not belong to me!
+              |<br />I photoshopped the images myself. This website was created for educational purposes ONLY!
+            
+          .social-media
+            ul
+              li#[a(href="https://github.com/bryantran97", target="_blank") #[i.fa.fa-github-square]]
+              li#[a(href="https://linkedin.com/in/bryantran97", target="_blank") #[i.fa.fa-linkedin-square]]
+              li#[a #[i.fa.fa-twitter-square]]
+              li#[a(href="http://bryan-tran.com/assets/current-resume.pdf") #[i.fa.fa-file-text]]
+              li#[a(href="mailto:bryantran97@gmail.com") #[i.fa.fa-envelope]]
+          
     script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js")
     script(src="assets/js/jquery.nicescroll.min.js")
     script(src="assets/js/functions.js")

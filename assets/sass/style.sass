@@ -1,5 +1,5 @@
 $background: #040609
-$font-color: #9dadab
+$font-color: #abadad
 
 *
   margin: 0
@@ -85,3 +85,29 @@ h1, h2, h3, h4, h5, h6
 
 .about
   text-align: center
+  p
+    &:first-of-type
+      padding-top: 20px
+    font-size: 115%
+
+.social-media
+  margin: 0 auto
+  padding-top: 30px
+  ul
+    text-align: center
+    padding: 0
+    list-style: none
+  li
+    padding: 0 10px
+    display: inline
+    font-size: 30px
+  a
+    color: $font-color
+    transition: 0.3s all ease-in-out
+    &:hover
+      color: white
+    cursor: pointer
+  .fa-file-text
+    position: relative
+    top: -2px
+    font-size: 27px

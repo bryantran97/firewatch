@@ -2,7 +2,7 @@ $(document).ready(function(){
   // Nice scroll
   $(function() {
       $("body").niceScroll({
-        scrollspeed: 250
+        scrollspeed: 175
       });
   });
 
@@ -37,7 +37,11 @@ $(document).ready(function(){
     });
 
     $("#keyart-7").css({
-      'transform': 'translate(0px, '+ wScroll/23 +'%)'
+      'transform': 'translate(0px, '+ wScroll/22 +'%)'
     });
   });
+
+  $(".fa-twitter-square").click(function() {
+    alert("Just kidding, I don't have a twitter. You just got trolled! The other links/resume/email works fine though!");
+  })
 });
