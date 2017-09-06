@@ -11,10 +11,9 @@ $(document).ready(function(){
   $(window).scroll(function(){
     // Scroll value
     var wScroll = $(this).scrollTop();
-    console.log(wScroll);
 
     $("#keyart-1").css({
-      'transform': 'translate(0px, '+ wScroll/11 +'%)'
+      'transform': 'translate(0px, '+ wScroll/12 +'%)'
     });
 
     $("#keyart-2").css({

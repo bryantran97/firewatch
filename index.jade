@@ -14,7 +14,7 @@ html(lang="en")
     link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Montserrat:400,600|Raleway:300,400,600")
     
     body
-
+      .keyart#nonparallax
       .keyart#parallax
         .keyart_layer.parallax#keyart-0
         .keyart_layer.parallax#keyart-1
@@ -29,27 +29,35 @@ html(lang="en")
       .main-content
         .container
           .about
-            h3 About Me
+            img.subtitle-image(src="assets/images/aboutme.png")
+            
+            .social-media
+              ul
+                li#[a(href="https://github.com/bryantran97", target="_blank") #[i.fa.fa-github-square]]
+                li#[a(href="https://linkedin.com/in/bryantran97", target="_blank") #[i.fa.fa-linkedin-square]]
+                li#[a #[i.fa.fa-twitter-square]]
+                li#[a(href="http://bryan-tran.com/assets/current-resume.pdf") #[i.fa.fa-file-text]]
+                li#[a(href="mailto:bryantran97@gmail.com") #[i.fa.fa-envelope]]
             
             p 
               |I am a junior at The University of Texas at Dallas. I am a UI focused Full-Stack Developer.
-              |<br/ >When I'm not studying for school, you can find me working on websites or hanging out with friends!
+              |<br />I am very passionate about the look and feel of things. I always want my site to look beautiful.
+              |<br />When I'm not studying for school, you can find me working on websites or hanging out with friends!
               |<br />Question: Am I passionate about web development and do I enjoy doing it? Answer: Higgity Heck Yeah!
             
             p 
-              |Note: This is my own take on the original Firewatch game website, the artwork does not belong to me!
+              |<span style="color: #eaac5b">Note</span>: This is my own take on the original Firewatch game website, the artwork does not belong to me!
               |<br />I photoshopped the images myself. This website was created for educational purposes ONLY!
             
-          .social-media
-            ul
-              li#[a(href="https://github.com/bryantran97", target="_blank") #[i.fa.fa-github-square]]
-              li#[a(href="https://linkedin.com/in/bryantran97", target="_blank") #[i.fa.fa-linkedin-square]]
-              li#[a #[i.fa.fa-twitter-square]]
-              li#[a(href="http://bryan-tran.com/assets/current-resume.pdf") #[i.fa.fa-file-text]]
-              li#[a(href="mailto:bryantran97@gmail.com") #[i.fa.fa-envelope]]
-        
+            <br />
+            <br />
+            p 
+              |Please feel free to contact me if you have any questions or you are interested in hiring me!
+              |<br /> I am still available for internships for the summer of 2017!
+              |<br /> Contact me at <strong>bryantran97@gmail.com</strong>
+          
           .work
-            h3 some of my works
+            img.subtitle-image(src="assets/images/mywork.png")
         
             .projects-text
               h4 Projects

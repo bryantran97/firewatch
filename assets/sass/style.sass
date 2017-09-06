@@ -1,5 +1,6 @@
 $background: #040609
-$font-color: #abadad
+$font-color: #cecece
+$links: #eaac5b
 
 *
   margin: 0
@@ -21,6 +22,12 @@ h1, h2, h3, h4, h5, h6
   position: relative
   height: 1000px
   overflow: hidden
+
+#nonparallax
+  display: none
+  background:
+    image: url(../images/mobile.png)
+    position: 49% 50%
 
 .keyart_layer
   width: 100%
@@ -73,7 +80,6 @@ h1, h2, h3, h4, h5, h6
   background:
     image: url(../images/parallax8.png)
     position: center
-
 /* ================ */
 /*   MAIN CONTENT   */
 /* ================ */
@@ -86,6 +92,10 @@ h1, h2, h3, h4, h5, h6
   background-color: $background
   position: relative
   color: $font-color
+
+.subtitle-image
+  box-sizing: contain
+  max-width: 100%
 
 /* ================ */
 /*       ABOUT      */
@@ -108,15 +118,15 @@ h1, h2, h3, h4, h5, h6
 
 .social-media
   margin: 0 auto
-  padding-top: 30px
+  padding-top: 15px
   ul
     text-align: center
     padding: 0
     list-style: none
   li
-    padding: 0 10px
+    padding: 0 20px
     display: inline
-    font-size: 30px
+    font-size: 33px
   a
     color: $font-color
     transition: 0.3s all ease-in-out
@@ -126,15 +136,17 @@ h1, h2, h3, h4, h5, h6
   .fa-file-text
     position: relative
     top: -2px
-    font-size: 27px
+    font-size: 31px
 
 /* ================ */
 /*   PROJECT-OH'S   */
 /* ================ */
 
 .work
-  padding-top: 75px
+  padding-top: 200px
   text-align: center
+  a
+    color: $links
 
   img
     box-sizing: contain
@@ -185,3 +197,16 @@ h1, h2, h3, h4, h5, h6
     &:hover
       border-color: white
       color: white
+
+/* ================ */
+/*      OTHERS      */
+/* ================ */
+
+/* Disables parallax */
+@media (max-width: 600px)
+  #nonparallax
+    display: block
+  #parallax
+    display: none
+  .projects p:last-of-type
+    padding-bottom: 50px
