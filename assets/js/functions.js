@@ -3,7 +3,7 @@ $(document).ready(function(){
   $(function() {
       $("body").niceScroll({
         cursoropacitymin: 1,
-        scrollspeed: 175
+        scrollspeed: 100
       });
   });
 
@@ -39,6 +39,14 @@ $(document).ready(function(){
     $("#keyart-7").css({
       'transform': 'translate(0px, '+ wScroll/22 +'%)'
     });
+
+    if(wScroll > $('.work').offset().top - ($(window).height() / 3)) {
+      $('.work figure').each(function(i){
+        setTimeout(function() {
+          $('.work figure').eq(i).addClass('is-showing');
+        }, 150 * (i+1));
+      });
+    }
   });
 
   $(".fa-twitter-square").click(function() {
