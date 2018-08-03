@@ -126,47 +126,6 @@
                   </div>
                 </div>
               </div>
-              <div class="projects">
-                <div class="row">
-                  <div class="four columns">
-                    <figure class="project-images"><a href="http://groupuputd.herokuapp.com" target="_blank"><img src="assets/images/groupuputd.png"></a>
-                      <p><a href="http://groupuputd.herokuapp.com" target="_blank">GroupUpUTD</a> is a web application created for UTDallas students to register and log in to create event listings</p>
-                      <p>Technologies: HTML/CSS/JS, Bootstrap, jQuery, Node.js, Express, MongoDB, Heroku</p>
-                    </figure>
-                  </div>
-                  <div class="four columns">
-                    <figure class="project-images"><a href="http://mini-overbuff.herokuapp.com" target="_blank"><img src="assets/images/mini-overbuff.png"></a>
-                      <p><a href="http://mini-overbuff.herokuapp.com" target="_blank">Mini-Overbuff</a> is a single page web application that allows Competitive Overwatch players to retrieve skill rating data and leaderboard rankings</p>
-                      <p>Technologies: HTML/CSS/JS, Bootstrap, SemanticUI, Node.js, Express, MongoDB, OW-API, Heroku</p>
-                    </figure>
-                  </div>
-                  <div class="four columns">
-                    <figure class="project-images"><a href="http://whattoeat-bt.herokuapp.com" target="_blank"><img src="assets/images/whattoeat.png"></a>
-                      <p><a href="http://whattoeat-bt.herokuapp.com" target="_blank">WhatToEat</a> is a web application created for indecisive foodies. This app generates a random food and restaurant near you!</p>
-                      <p>Technologies: HTML/CSS/JS, SemanticUI, jQuery, Node.js, Express, Yelp-Fusion API, Heroku</p>
-                    </figure>
-                  </div>
-                </div>
-                <div class="websites">
-                  <div class="websites-text">
-                    <h4>Work experience</h4>
-                    <p>Previous Software Engineering internships</p>
-                  </div>
-                  <div class="row">
-                    <div class="six columns">
-                      <figure class="project-images"><a href="https://www.usaa.com/inet/ent_logon/Logon?redirectjsp=true" target="_blank"><img src="assets/images/usaa_logo.jpg"></a>
-                        <p>React/Redux developer intern placed on the Developer tools team</p>
-                        <p>May 2018 - August 2018</p>
-                      </figure>
-                    </div>
-                    <div class="six columns">
-                      <figure class="project-images"><a href="https://www.walmartlabs.com/" target="_blank"><img src="assets/images/walmart_logo.jpg"></a>
-                        <p>React/Redux developer intern placed on the Developer tools team</p>
-                        <p>December 2017 - May 2018</p>
-                      </figure>
-                    </div>
-                  </div>
-                </div>
             </div>
           </div>
           <div class="return">
